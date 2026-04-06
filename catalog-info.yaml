@@ -10,6 +10,7 @@ metadata:
   labels:
     blitzy.com/language: javascript
   annotations:
+    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Blitzy-Sandbox/blitzy-firefox
     backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-firefox/tree/main/
   links:
