@@ -4,10 +4,10 @@ metadata:
   name: blitzy-firefox
   description: "Mozilla Firefox web browser fork — exploring AI-assisted browser development"
   tags:
-    - javascript
-    - scaffolded
+    - cpp
+    - web-app
+    - refactor
   labels:
-    blitzy.com/status: scaffolded
     blitzy.com/language: javascript
   annotations:
     github.com/project-slug: Blitzy-Sandbox/blitzy-firefox
