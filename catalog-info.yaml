@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-firefox
+  description: "Mozilla Firefox web browser fork — exploring AI-assisted browser development"
+  tags:
+    - javascript
+    - scaffolded
+  labels:
+    blitzy.com/status: scaffolded
+    blitzy.com/language: javascript
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-firefox
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-firefox/tree/main/
+  links:
+    - url: https://github.com/Blitzy-Sandbox/blitzy-firefox
+      title: GitHub Repository
+    - url: https://github.com/Blitzy-Sandbox/blitzy-firefox/tree/main/blitzy/documentation
+      title: Blitzy Documentation
+      icon: docs
+spec:
+  type: library
+  lifecycle: experimental
+  owner: blitzy-sandbox
+  system: blitzy-sandbox-projects
